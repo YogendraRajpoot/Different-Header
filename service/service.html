@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOUR</title>
+    <link rel="stylesheet" href="service.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script type="text/javascript">
+        function togglemenu(){
+            document.querySelector('.Service_nav_right').classList.toggle('active')
+        }
+    </script>
+
+</head>
+
+<body>
+    <section id="Service">
+        <!-- NAVIGATION BAR START -->
+        <nav id="Service_nav">
+
+            <div class="Service_nav_left" >TOUR</div>
+            <div class="Service_nav_right" onclick="togglemenu()">
+                <img src="menubar.png" alt="" class="Service_nav_menubar" >
+                <ul class="Service_nav_right_ul">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="tour.html">Tours</a>
+                    </li>
+                    <li>
+                        <a href="hotel.html">Hotels</a>
+                    </li>
+                    <li>
+                        <a href="service.html">Services</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">Blog</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </nav>
+        
+        <div class="Service_div_image">
+            <div id="Service_div_centertext">
+                <p id="Service_div_centertext1">BY COLORLIB.COM</p>
+                <p id="Service_div_centertext2">Our Services</p>
+            </div>
+            <img src="./service.image.webp" id="Service_nav_image">
+        </div>
+        
+        
+        <!-- NAVIGATION BAR END -->
+
+    </section>
+
+
+</body>
+
+</html>
